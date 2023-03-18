@@ -8,9 +8,9 @@ public class BuildArrayFromPermutation {
     }
 
     public static int[] buildArray(int[] nums) {
-  var reault =new int[6];
+  var reault =new int[nums.length];
         for (int i=0 ;i<nums.length;i++){
-            reault[i] =  nums[nums[i]]
+            reault[i] =  nums[nums[i]];
 ;        }
         return  reault;
     }
