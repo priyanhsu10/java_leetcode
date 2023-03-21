@@ -1,3 +1,5 @@
+package problems;
+
 public class ShuffleTheArray {
     public static void main(String[] args) {
 //        Input: nums = [2,5,1,3,4,7], n = 3

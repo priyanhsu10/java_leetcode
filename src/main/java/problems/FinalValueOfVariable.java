@@ -1,3 +1,5 @@
+package problems;
+
 public class FinalValueOfVariable {
     public static void main(String[] args) {
         String[] input = {"--X", "X++", "X++"};

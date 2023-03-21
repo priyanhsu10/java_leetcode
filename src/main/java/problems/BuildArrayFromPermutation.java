@@ -1,3 +1,5 @@
+package problems;
+
 public class BuildArrayFromPermutation {
     public static void main(String[] args) {
  int[] input=  {0,2,1,5,3,4};
