@@ -6,6 +6,8 @@ import java.time.format.FormatStyle;
 import java.time.temporal.TemporalAdjuster;
 import java.time.temporal.TemporalAdjusters;
 import java.time.temporal.TemporalAmount;
+import java.util.Arrays;
+import java.util.stream.Collectors;
 
 public class PracticeForApi {
     public static void main(String[] args) {
@@ -24,8 +26,12 @@ public class PracticeForApi {
 LocalDate today= LocalDate.of(LocalDate.now().getYear(),Month.JANUARY,1);
 LocalDate longdateDay= today.with(Month.JUNE).withDayOfMonth(21);
 Period p= Period.between(today,longdateDay);
-        System.out.println("how many days Until logest day of year , month :"+p.getMonths() +", day :"+p.getDays() ,p.);
+        System.out.println("how many days Until logest day of year , month :"+p.getMonths() +", day :"+p.getDays() );
 
+        Arrays.stream(Month.values())
+                .map(x-> LocalDate.now().withYear(LocalDate.now().getYear())
+                        .with(x) .with(TemporalAdjusters.lastDayOfMonth()).getDayOfWeek())
+                .forEach(x-> System.out.println(x));
     }
 
     private static void basics() {

@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d092809-bb39-42f0-937e-78215f25d188" name="Changes" comment="solved &#10;1512. Number of Good Pairs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/datetimeapi/PracticeForApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/RichestCustomerWealth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BuildArrayFromPermutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/BuildArrayFromPermutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConcatenationOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/ConcatenationOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FinalValueOfVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/FinalValueOfVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeftRightSumDifferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/LeftRightSumDifferences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NumberGoodPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/NumberGoodPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/ShuffleTheArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/datetimeapi/PracticeForApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datetimeapi/PracticeForApi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
